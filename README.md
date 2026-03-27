@@ -55,15 +55,18 @@ Le projet intègre des barrières de sécurité pour éviter les erreurs de déc
 <img width="637" height="365" alt="Capture d’écran 2026-03-27 à 14 14 32" src="https://github.com/user-attachments/assets/d5b96a91-08f0-4dfb-8a01-da1bbdde6697" />
 
 Monitoring et Restitution
-Ordonnancement : Le flux est piloté par Kestra pour surveiller l'état d'exécution et la volumétrie.
 
-Visualisation : Un rapport PowerBI est connecté à la base SQLite pour suivre les KPI financiers en temps réel.
+- Ordonnancement : Le flux est piloté par Kestra pour surveiller l'état d'exécution et la volumétrie.
+- Visualisation : Un rapport PowerBI est connecté à la base SQLite pour suivre les KPI financiers en temps réel.
 
 📂 Structure des fichiers
-Plaintext
 .
 ├── Donnees_RH.xlsx          # Source de données RH
+
 ├── Script.py                # Pipeline Python principal
+
 ├── requirements.txt         # Liste des dépendances
+
 ├── SportData_POC.db         # Base de données SQLite générée
+
 └── Resultats_RH_Final.csv   # Export pour PowerBI

@@ -59,6 +59,10 @@ Monitoring et Restitution
 - Ordonnancement : Le flux est piloté par Kestra pour surveiller l'état d'exécution et la volumétrie.
 - Visualisation : Un rapport PowerBI est connecté à la base SQLite pour suivre les KPI financiers en temps réel.
 
+- Flux
+  https://github.com/byn2ss/Gerez_un_projet_dinfrastructure/blob/main/IMG_1447.jpeg
+  
+
 📂 Structure des fichiers
 .
 ├── Donnees_RH.xlsx          # Source de données RH
